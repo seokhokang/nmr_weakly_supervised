@@ -1,5 +1,5 @@
 # nmr_weakly_supervised
-Tensorflow implementation of the model described in the paper [Predictive Modeling of NMR Chemical Shifts without Atom-level Annotations]()
+Tensorflow implementation of the model described in the paper [Predictive Modeling of NMR Chemical Shifts without Atom-level Annotations](https://doi.org/10.1021/acs.jcim.0c00494)
 
 ## Components
 - **preprocessing.py** - script for data preprocessing
@@ -21,3 +21,17 @@ Tensorflow implementation of the model described in the paper [Predictive Modeli
 - **NumPy**
 - **scikit-learn**
 - **sparse**
+
+## Citation
+```
+@Article{Kang2020,
+  title={Predictive Modeling of NMR Chemical Shifts without Using Atomic-Level Annotations},
+  author={Kang, Seokho and Kwon, Youngchun and Lee, Dongseon and Choi, Youn-Suk},
+  journal={Journal of Chemical Information and Modeling},
+  volume={60},
+  number={8},
+  pages={3765-3769},
+  year={2020},
+  doi={10.1021/acs.jcim.0c00494}
+}
+```
